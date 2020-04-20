@@ -26,7 +26,7 @@ lcddemo.elf: lcddemo.o libLcd.a
 	$(CC) $(CFLAGS) $(LDFLAGS) $^ -o $@ -lTimer
 
 lcdquiz.elf: lcdquiz.o libLcd.a
-	$(CC) $(CFLAGS) $(LDFLAGS) $^ -0 $@ -lTimer
+	$(CC) $(CFLAGS) $(LDFLAGS) $^ -o $@ -lTimer
 
 
 load: lcddemo.elf

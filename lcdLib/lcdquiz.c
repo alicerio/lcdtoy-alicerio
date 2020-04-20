@@ -11,8 +11,9 @@ int main() {
 
 
   for(j = 0; j < 15; j++) {
-    drawPixel(0,j,COLOR_BLUE);
-    drawPixel(j,j,COLOR_BLUE);
-    drawPixel(j,15,COLOR_BLUE);
+    drawPixel(0,j,COLOR_GREEN);
+    drawPixel(j,j,COLOR_GREEN);
+    drawPixel(j,15,COLOR_GREEN);
   }
+}
  
